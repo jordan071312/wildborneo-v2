@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/animals.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <title>Banteng</title>
+</head>
+
+<body>
+    <div> <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="list.html">Protected Animals</a>
+                    <ul class="dropdown">
+                        <li><a href="banteng.html">Banteng</a></li>
+                        <li><a href="civets.html">Civets</a></li>
+                        <li><a href="elephant.html">Elephants</a></li>
+                        <li><a href="leopard.html">Leopard</a></li>
+                        <li><a href="loris.html">Loris</a></li>
+                        <li><a href="orangutan.html">Orangutan</a></li>
+                        <li><a href="pangolin.html">Pangolin</a></li>
+                        <li><a href="proboscis.html">Proboscis Monkey</a></li>
+                        <li><a href="rhino.html">Rhinoceros</a></li>
+                        <li><a href="weasel.html">Weasel</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Info-->
+    <section class="animal-section">
+        <div class="animal-text">
+            <h1>Banteng (Tembedau)</h1>
+            <h2>Scientific name: <i>Bos javanicus lowi</i></h2>
+            <h2>Conservation Status: <i>Critically Endangered</i></h2>
+            <h2>Estimated Population (Sabah): ~500</h2>
+            <h2>Avg. Lifespan: ~25 years</h2>
+            <p>The <i>Banteng</i>, also known as <i>Tembedau</i> is a species of wild cattle native to Southeast Asia,
+                found in parts of Borneo, Java, and mainland regions. In Sabah, it is recognized as the largest land
+                mammal and plays an important role in maintaining forest ecosystems. Bantengs have a sleek reddish-brown
+                coat, white stockings, and curved horns, with males being darker and more muscular than females.</p>
+            <p>They are herbivores that feed on grasses, bamboo, leaves, fruits, and tree bark, and are commonly found
+                in tropical forests, grasslands, and lowland areas near water. Bantengs live in small herds led by
+                females, becoming more nocturnal in disturbed habitats. Their grazing helps shape vegetation and
+                supports forest regeneration.</p>
+            <p>Banteng populations have declined sharply due to deforestation, hunting, and genetic isolation. Habitat
+                loss from agriculture and palm oil expansion has fragmented their range, while poaching for meat and
+                horns remains a major threat. In Sabah, fewer than 500 individuals remain. Conservation efforts,
+                including habitat protection, camera trap monitoring, and genetic studies by WWF and local partners, aim
+                to preserve this endangered species.</p>
+        </div>
+        <div class="animal-image">
+            <img src="/img/banteng2.jpg" alt="Banteng//Tembedau">
+        </div>
+    </section>
+    <!--Quick Facts-->
+    <section class="animal-quick-facts">
+        <h1>Quick Facts</h1>
+        <div class="facts-container">
+            <div class="fact-box">
+                <h3>Names</h3>
+                <p>Local names: Banteng, Tembedau <br> Scientific name: <i>Bos javanicus jowi</i></p>
+            </div>
+            <div class="fact-box">
+                <h3>Diet</h3>
+                <p>Herbivorous: Grass, leaves, bamboo, fruits, tree barks, salt licks </p>
+            </div>
+            <div class="fact-box">
+                <h3>Lifespan</h3>
+                <p>~25 years</p>
+            </div>
+            <div class="fact-box">
+                <h3>Habitat</h3>
+                <p>Grasslands, deciduous & tropical forests, swamp & coastal forests</p>
+            </div>
+            <div class="fact-box">
+                <h3>Behaviour</h3>
+                <p>More active at night in disturbed; grazes openly by day in safe areas</p>
+            </div>
+            <div class="fact-box">
+                <h3>Population</h3>
+                <p>Total: ~3,300 <br> Sabah: ~500</p>
+            </div>
+            <div class="fact-box">
+                <h3>Threats</h3>
+                <p>habitat loss, hunting, hybridization & inbreeding due to isolation</p>
+            </div>
+            <div class="fact-box">
+                <h3>Conservation Efforts</h3>
+                <p>Conservation programmes, genetic preservation, camera traps, GPS tracking</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Gallery-->
+    <section class="animal-gallery-container">
+        <!--image with number text-->
+        <div class="slides">
+            <div class="numbertext">1 / 6</div>
+            <img src="img/banteng.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">2 / 6</div>
+            <img src="img/banteng2.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">3 / 6</div>
+            <img src="img/banteng3.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">4 / 6</div>
+            <img src="img/banteng4.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">5 / 6</div>
+            <img src="img/banteng5.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">6 / 6</div>
+            <img src="img/banteng6.jpg" alt="">
+        </div>
+
+        <!--next//prev-->
+        <a class="prev" onclick="[plusSlides(-1)]">&#10094;</a>
+        <a class="next" onclick="[plusSlides(1)]">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="img/banteng.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="Banteng">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/banteng2.jpg" style="width:100%" onclick="currentSlide(2)"
+                    alt="Herd of Bantengs Roaming">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/banteng3.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="Banteng have a large white patch on the rump.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/banteng4.jpg" style="width:100%" onclick="currentSlide(4)"
+                    alt="Banteng feed on vegetation such as grasses.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/banteng5.jpg" style="width:100%" onclick="currentSlide(5)"
+                    alt="A mother with her calf">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/banteng6.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Banteng are shy animals, they dwell in remote tropical lowland mixed dipterocarp, swamp or beach forest.">
+            </div>
+        </div>
+        </div>
+        <script src="slideshow.js"></script>
+    </section>
+    <footer>
+        © 2025 Project WildBorneo | ICT AUMS UT0012 2025
+    </footer>
+</body>
+
+</html>

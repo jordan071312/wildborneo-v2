@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animals.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <title> Civets</title>
+</head>
+
+<body>
+    <div> <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="list.html">Endangered Animals</a>
+                    <ul class="dropdown">
+                        <li><a href="banteng.html">Banteng</a></li>
+                        <li><a href="civets.html">Civets</a></li>
+                        <li><a href="elephant.html">Elephants</a></li>
+                        <li><a href="leopard.html">Leopard</a></li>
+                        <li><a href="loris.html">Loris</a></li>
+                        <li><a href="orangutan.html">Orangutan</a></li>
+                        <li><a href="pangolin.html">Pangolin</a></li>
+                        <li><a href="proboscis.html">Proboscis Monkey</a></li>
+                        <li><a href="rhino.html">Rhinoceros</a></li>
+                        <li><a href="weasel.html">Weasel</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <!--Info-->
+        <section class="animal-section">
+            <div class="animal-text">
+                <h1>Malayan Civet</h1>
+                <h2>Scientific name: <i>Viverra tangalunga</i></h2>
+                <h2>Conservation Status: <i>Least Concern</i></h2>
+                <h2>Estimated Population: unknown</h2>
+                <h2>Avg. Lifespan: 11-12 years</h2>
+                <p>The <i>Malayan Civet</i> is a nocturnal, cat-like mammal native to Southeast Asia, commonly found
+                    across Malaysia, Indonesia, and the Philippines. Recognizable by its elongated body, pointed snout,
+                    and distinct dark spots and stripes, it thrives in both natural and human-modified environments. It
+                    plays an important ecological role as a seed disperser and pest controller in tropical ecosystems.
+                    Unlike other civet species, it adapts well to a range of environments, including forests, farmlands,
+                    and village outskirts.</p>
+                <p>This species is omnivorous, feeding on insects, small mammals, reptiles, fruits, eggs, and roots. It
+                    inhabits forests, secondary growth areas, cultivated land, and the outskirts of villages, showing
+                    great adaptability to changing habitats. The civet’s solitary and nocturnal nature allows it to
+                    avoid predators and human activity, though it occasionally ventures near farms or settlements.</p>
+                <p>Despite its adaptability, the Malayan Civet faces threats from habitat destruction, deforestation,
+                    and hunting. Agricultural expansion and timber harvesting reduce forest cover, while its tendency to
+                    raid poultry coops and fruit orchards often brings it into conflict with humans. In some areas,
+                    civets are legally trapped or shot as pests. Conservation efforts focus on habitat preservation and
+                    minimizing human-wildlife conflict.</p>
+            </div>
+            <div class="animal-image">
+                <img src="/img/civet.jpg" alt="Malayan Civet">
+            </div>
+        </section>
+        <!--Quick Facts-->
+        <section class="animal-quick-facts">
+            <h1>Quick Facts</h1>
+            <div class="facts-container">
+                <div class="fact-box">
+                    <h3>Names</h3>
+                    <p>General Name: Malayan Civet<br> Scientific name: <i>Viverra tangalunga</i></p>
+                </div>
+                <div class="fact-box">
+                    <h3>Diet</h3>
+                    <p>Omnivorous: insects, snakes, frogs, fruits & small rodents</p>
+                </div>
+                <div class="fact-box">
+                    <h3>Lifespan</h3>
+                    <p>~10-20 years</p>
+                </div>
+                <div class="fact-box">
+                    <h3>Habitat</h3>
+                    <p>Forests, secondary habitats, cultivated lands, & near human settlements</p>
+                </div>
+                <div class="fact-box">
+                    <h3>Behaviour</h3>
+                    <p>Mostly nocturnal; active on ground but capable climber when foraging</p>
+                </div>
+                <div class="fact-box">
+                    <h3>Population</h3>
+                    <p>Exact numbers unknown; populations declining in disturbed & deforested areas</p>
+                </div>
+                <div class="fact-box">
+                    <h3>Threats</h3>
+                    <p>habitat loss, hunting, trapping & conflicts with farmers who view them as pests</p>
+                </div>
+                <div class="fact-box">
+                    <h3>Conservation Efforts</h3>
+                    <p>Protected in several reserves; habitat preservation, reduction of human conflict</p>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!--Gallery-->
+    <section class="animal-gallery-container">
+        <!--image with number text-->
+        <div class="slides">
+            <div class="numbertext">1 / 6</div>
+            <img src="img/civet.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">2 / 6</div>
+            <img src="img/civet2.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">3 / 6</div>
+            <img src="img/civet3.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">4 / 6</div>
+            <img src="img/civet4.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">5 / 6</div>
+            <img src="img/civet_area.png" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">6 / 6</div>
+            <img src="img/civet6.jpg" alt="">
+        </div>
+
+        <!--next//prev-->
+        <a class="prev" onclick="[plusSlides(-1)]">&#10094;</a>
+        <a class="next" onclick="[plusSlides(1)]">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="img/civet.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="Civet on its two hind legs">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/civet2.jpg" style="width:100%" onclick="currentSlide(2)"
+                    alt="Malayan Civet in the wild, foraging">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/civet3.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="Taxidermied Malayan civet at Philippine National Museum">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/civet4.jpg" style="width:100%" onclick="currentSlide(4)"
+                    alt="Malayan CIvet on a tree">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/civet_area.png" style="width:100%" onclick="currentSlide(5)" alt="Malayan civet range
+                (dark green - extant,
+                light green - probably extant)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/civet6.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Camera trap of Malayan Civet in the wild">
+            </div>
+        </div>
+        </div>
+        <script src="slideshow.js"></script>
+    </section>
+    <footer>
+        © 2025 Project WildBorneo | ICT AUMS UT0012 2025
+    </footer>
+    </div>
+</body>
+
+</html>

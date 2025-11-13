@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/animals.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <title>Weasel</title>
+</head>
+
+<body>
+    <div> <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="list.html">Endangered Animals</a>
+                    <ul class="dropdown">
+                        <li><a href="banteng.html">Banteng</a></li>
+                        <li><a href="civets.html">Civets</a></li>
+                        <li><a href="elephant.html">Elephants</a></li>
+                        <li><a href="leopard.html">Leopard</a></li>
+                        <li><a href="loris.html">Loris</a></li>
+                        <li><a href="orangutan.html">Orangutan</a></li>
+                        <li><a href="pangolin.html">Pangolin</a></li>
+                        <li><a href="proboscis.html">Proboscis Monkey</a></li>
+                        <li><a href="rhino.html">Rhinoceros</a></li>
+                        <li><a href="weasel.html">Weasel</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Info-->
+    <section class="animal-section">
+        <div class="animal-text">
+            <h1>Malayan Weasel</h1>
+            <h2>Scientific name: <i>Mustela nudipes</i></h2>
+            <h2>Conservation Status: <i>Critically Endangered</i></h2>
+            <h2>Estimated Population: Unknown</h2>
+            <h2>Avg. Lifespan: ~3-10 years</h2>
+            <p>The <i>Malayan Weasel</i> is a small carnivorous mammal native to the Sundaic regions, including Brunei,
+                Indonesia, Peninsular Malaysia, and Thailand. It inhabits a variety of forested environments and is
+                highly adaptable, often found in lowland and montane forests. Its sleek body and agility make it an
+                efficient predator, and despite its wide range, it remains elusive due to its solitary and secretive
+                nature.</p>
+            <p>This species is primarily carnivorous, feeding on small rodents, lizards, insects, and occasionally birds
+                and other reptiles. Its hunting behavior plays a role in controlling populations of small mammals and
+                insects, helping maintain ecological balance in its forest habitats. Its adaptability in diet allows it
+                to survive across different forest types and varying prey availability.</p>
+            <p>The Malayan Weasel faces threats from human activity, though less documented than for larger species.
+                Individuals are sometimes killed for medical use, their fur, or as trophies, which contributes to
+                population decline. Habitat loss due to deforestation and human encroachment further increases the
+                species’ vulnerability. Conservation measures aimed at protecting its forest habitat are essential to
+                ensure its continued survival.</p>
+        </div>
+        <div class="animal-image">
+            <img src="/img/weasel2.jpg" alt="Malayan Weasel">
+        </div>
+    </section>
+    <!--Quick Facts-->
+    <section class="animal-quick-facts">
+        <h1>Quick Facts</h1>
+        <div class="facts-container">
+            <div class="fact-box">
+                <h3>Names</h3>
+                <p>General Name: Malayan Weasel<br> Scientific name: <i>Mustela nudipes</i></p>
+            </div>
+            <div class="fact-box">
+                <h3>Diet</h3>
+                <p>Carnivorous: small rodents, lizards, insects, occasionally birds & reptiles</p>
+            </div>
+            <div class="fact-box">
+                <h3>Lifespan</h3>
+                <p>~3-10 years</p>
+            </div>
+            <div class="fact-box">
+                <h3>Habitat</h3>
+                <p>Forests across Brunei, Indonesia, Malaysia & Thailand</p>
+            </div>
+            <div class="fact-box">
+                <h3>Behaviour</h3>
+                <p>Solitary, agile predator; elusive and secretive</p>
+            </div>
+            <div class="fact-box">
+                <h3>Population</h3>
+                <p>Unknown, likely declining</p>
+            </div>
+            <div class="fact-box">
+                <h3>Threats</h3>
+                <p>Killed for medical use, fur, trophies; habitat loss</p>
+            </div>
+            <div class="fact-box">
+                <h3>Conservation Efforts</h3>
+                <p>Habitat protection & anti-poaching measures in forest reserves</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Gallery-->
+    <section class="animal-gallery-container">
+        <!--image with number text-->
+        <div class="slides">
+            <div class="numbertext">1 / 5</div>
+            <img src="img/weasel.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">2 / 5</div>
+            <img src="img/weasel2.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">3 / 5</div>
+            <img src="img/weasel3.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">4 / 5</div>
+            <img src="img/weasel4.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">5 / 5</div>
+            <img src="img/weasel_area.png" alt="">
+        </div>
+
+        <!--next//prev-->
+        <a class="prev" onclick="[plusSlides(-1)]">&#10094;</a>
+        <a class="next" onclick="[plusSlides(1)]">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="img/weasel.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="Malayan Weasel">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/weasel2.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/weasel3.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="Malayan Weasel caught in a camera trap in the wild">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/weasel4.jpg" style="width:100%" onclick="currentSlide(4)"
+                    alt="">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/weasel_area.png" style="width:100%" onclick="currentSlide(5)"
+                    alt="Malayan Weasel range">
+            </div>
+        </div>
+        </div>
+        <script src="slideshow.js"></script>
+    </section>
+    <footer>
+        © 2025 Project WildBorneo | ICT AUMS UT0012 2025
+    </footer>
+    </div>
+</body>
+
+</html>

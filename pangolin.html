@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/animals.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <title>Pangolin</title>
+</head>
+
+<body>
+    <div> <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="list.html">Endangered Animals</a>
+                    <ul class="dropdown">
+                        <li><a href="banteng.html">Banteng</a></li>
+                        <li><a href="civets.html">Civets</a></li>
+                        <li><a href="elephant.html">Elephants</a></li>
+                        <li><a href="leopard.html">Leopard</a></li>
+                        <li><a href="loris.html">Loris</a></li>
+                        <li><a href="orangutan.html">Orangutan</a></li>
+                        <li><a href="pangolin.html">Pangolin</a></li>
+                        <li><a href="proboscis.html">Proboscis Monkey</a></li>
+                        <li><a href="rhino.html">Rhinoceros</a></li>
+                        <li><a href="weasel.html">Weasel</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Info-->
+    <section class="animal-section">
+        <div class="animal-text">
+            <h1>Sunda Pangolin</h1>
+            <h2>Scientific name: <i>Manis javanica</i></h2>
+            <h2>Conservation Status: <i>Critically Endangered</i></h2>
+            <h2>Estimated Population: ~50,000</h2>
+            <h2>Avg. Lifespan: unknown</h2>
+            <p>The <i>Sunda Pangolin</i> is a nocturnal mammal native to Southeast Asia, including countries such as
+                India, China, and parts of Indonesia and Malaysia. It inhabits forests, grasslands, and savannas, with
+                some populations being arboreal while others are primarily terrestrial. Known for its distinctive
+                protective scales, the pangolin is an elusive species that plays an important role in maintaining
+                ecological balance through its insectivorous diet.</p>
+            <p>This species feeds almost exclusively on ants and termites, consuming thousands of insects daily. Its
+                specialized long tongue allows it to extract insects from narrow crevices, while its digging behavior
+                aerates the soil and helps control insect populations. By doing so, the pangolin contributes to soil
+                health and forest ecosystem functioning, demonstrating its ecological importance despite its small size
+                and solitary habits.</p>
+            <p>Unfortunately, the Sunda Pangolin faces critical threats from human activity. It is <b>the most
+                    trafficked mammal in the world</b>, with its scales highly valued in traditional medicine and its
+                meat considered a luxury delicacy in some cultures. Habitat loss from deforestation due to agriculture,
+                logging, and urban development further endangers the species, making it increasingly difficult to find
+                both shelter and food. Despite international trade bans, illegal poaching continues to drive its
+                population decline.</p>
+        </div>
+        <div class="animal-image">
+            <img src="/img/pangolin.jpg" alt="Sunda Pangolin">
+        </div>
+    </section>
+    <!--Quick Facts-->
+    <section class="animal-quick-facts">
+        <h1>Quick Facts</h1>
+        <div class="facts-container">
+            <div class="fact-box">
+                <h3>Names</h3>
+                <p>General Name: Sunda Pangolin<br> Scientific name: <i>Manis javanica</i></p>
+            </div>
+            <div class="fact-box">
+                <h3>Diet</h3>
+                <p>Insectivorous: mainly ants & termites</p>
+            </div>
+            <div class="fact-box">
+                <h3>Lifespan</h3>
+                <p>Unknown</p>
+            </div>
+            <div class="fact-box">
+                <h3>Habitat</h3>
+                <p>Forests, grasslands & savannas in Southeast Asia</p>
+            </div>
+            <div class="fact-box">
+                <h3>Behaviour</h3>
+                <p>Solitary & nocturnal; excellent climbers & diggers; uses burrows for shelter
+                </p>
+            </div>
+            <div class="fact-box">
+                <h3>Population</h3>
+                <p>~50,000 and declining</p>
+            </div>
+            <div class="fact-box">
+                <h3>Threats</h3>
+                <p>Habitat loss, deforestation, illegal hunting & wildlife trade</p>
+            </div>
+            <div class="fact-box">
+                <h3>Conservation Efforts</h3>
+                <p>Habitat restoration, anti-poaching programs, rescue & rehabilitation</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Gallery-->
+    <section class="animal-gallery-container">
+        <!--image with number text-->
+        <div class="slides">
+            <div class="numbertext">1 / 6</div>
+            <img src="img/pangolin.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">2 / 6</div>
+            <img src="img/pangolin2.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">3 / 6</div>
+            <img src="img/pangolin_area.png" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">4 / 6</div>
+            <img src="img/pangolin4.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">5 / 6</div>
+            <img src="img/pangolin5.png" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">6 / 6</div>
+            <img src="img/pangolin6.jpg" alt="">
+        </div>
+
+        <!--next//prev-->
+        <a class="prev" onclick="[plusSlides(-1)]">&#10094;</a>
+        <a class="next" onclick="[plusSlides(1)]">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="img/pangolin.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="Pangolin curling on a tree">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/pangolin2.jpg" style="width:100%" onclick="currentSlide(2)"
+                    alt="Sunda pangolin in the wild">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/pangolin_area.png" style="width:100%" onclick="currentSlide(3)"
+                    alt="Sunda Pangolin range">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/pangolin4.jpg" style="width:100%" onclick="currentSlide(4)"
+                    alt="Pangolin climbing a palm tree">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/pangolin5.png" style="width:100%" onclick="currentSlide(5)"
+                    alt="Taxidermied Sunda Pangolin for exhibition">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/pangolin6.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Sunda Pangolin caught on camera trap in laos">
+            </div>
+        </div>
+        </div>
+        <script src="slideshow.js"></script>
+    </section>
+    <footer>
+        © 2025 Project WildBorneo | ICT AUMS UT0012 2025
+    </footer>
+    </div>
+</body>
+
+</html>

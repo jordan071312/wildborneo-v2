@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/animals.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <title> Leopard</title>
+</head>
+
+<body>
+    <div> <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="list.html">Endangered Animals</a>
+                    <ul class="dropdown">
+                        <li><a href="banteng.html">Banteng</a></li>
+                        <li><a href="civets.html">Civets</a></li>
+                        <li><a href="elephant.html">Elephants</a></li>
+                        <li><a href="leopard.html">Leopard</a></li>
+                        <li><a href="loris.html">Loris</a></li>
+                        <li><a href="orangutan.html">Orangutan</a></li>
+                        <li><a href="pangolin.html">Pangolin</a></li>
+                        <li><a href="proboscis.html">Proboscis Monkey</a></li>
+                        <li><a href="rhino.html">Rhinoceros</a></li>
+                        <li><a href="weasel.html">Weasel</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Info-->
+    <section class="animal-section">
+        <div class="animal-text">
+            <h1>Bornean Clouded Leopard</h1>
+            <h2>Scientific name: <i>Neofelis diardi borneensis</i></h2>
+            <h2>Conservation Status: <i>Vulnerable</i></h2>
+            <h2>Estimated Population: 1,500-3,200</h2>
+            <h2>Avg. Lifespan: 11-15 years</h2>
+            <p>The <i>Bornean Clouded Leopard</i> is the largest wild cat in Borneo and one of the most elusive
+                predators in Southeast Asia. Known for its striking cloud-like patterns and long tail, this solitary
+                feline is an apex predator that plays a crucial role in maintaining ecological balance within tropical
+                forests.
+            </p>
+            <p>It inhabits lowland rainforests, hill forests, and occasionally savannas, feeding on gibbons, macaques,
+                small deer, wild boar, and other small mammals. Agile and strong, the clouded leopard is an expert
+                climber, capable of descending trees headfirst while hunting or escaping danger. Its secretive nature
+                and preference for dense forests make it difficult to study in the wild.</p>
+            <p>The species is listed as endangered due to extensive deforestation, poaching, and habitat fragmentation.
+                Illegal hunting for its pelt, claws, and teeth has further reduced its population. As forests shrink,
+                the leopards face increased isolation, leading to inbreeding and reduced genetic diversity. Conservation
+                efforts in Sabah focus on habitat protection, anti-poaching patrols, and genetic monitoring to secure
+                its survival.</p>
+        </div>
+        <div class="animal-image">
+            <img src="/img/leopard2.webp" alt="Bornean Clouded Leopard">
+        </div>
+    </section>
+    <!--Quick Facts-->
+    <section class="animal-quick-facts">
+        <h1>Quick Facts</h1>
+        <div class="facts-container">
+            <div class="fact-box">
+                <h3>Names</h3>
+                <p>General Name: Bornean Clouded Leopard<br> Scientific name: <i>Neofelis diardi borneensis</i></p>
+            </div>
+            <div class="fact-box">
+                <h3>Diet</h3>
+                <p>Carnivorous: gibbons, macaques, small deers, wild boars & slow lorises</p>
+            </div>
+            <div class="fact-box">
+                <h3>Lifespan</h3>
+                <p>~11-15 years</p>
+            </div>
+            <div class="fact-box">
+                <h3>Habitat</h3>
+                <p>Lowland tropical rainforests, hill forests & occasional savannas</p>
+            </div>
+            <div class="fact-box">
+                <h3>Behaviour</h3>
+                <p>Solitary & primarily nocturnal; skilled climber capable of descending trees headfirst</p>
+            </div>
+            <div class="fact-box">
+                <h3>Population</h3>
+                <p>~1,500-3,200 and declining</p>
+            </div>
+            <div class="fact-box">
+                <h3>Threats</h3>
+                <p>Deforestation, habitat fragmentation, illegal poaching, & human conflict</p>
+            </div>
+            <div class="fact-box">
+                <h3>Conservation Efforts</h3>
+                <p>Habitat protection, anti-poaching patrols, & genetic monitoring programmes in Sabah & Borneo</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Gallery-->
+    <section class="animal-gallery-container">
+        <!--image with number text-->
+        <div class="slides">
+            <div class="numbertext">1 / 5</div>
+            <img src="img/leopard.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">2 / 5</div>
+            <img src="img/leopard2.webp" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">3 / 5</div>
+            <img src="img/leopard3.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">4 / 5</div>
+            <img src="img/leopard4.jpg" alt="">
+        </div>
+        <div class="slides">
+            <div class="numbertext">5 / 5</div>
+            <img src="img/leopard5.jpg" alt="">
+        </div>
+
+        <!--next//prev-->
+        <a class="prev" onclick="[plusSlides(-1)]">&#10094;</a>
+        <a class="next" onclick="[plusSlides(1)]">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="img/leopard.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="Bornean Clouded Leopard">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/leopard2.webp" style="width:100%" onclick="currentSlide(2)"
+                    alt="Bornean CLouded Leopard resting on a tree branch">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/leopard3.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="Sitting Clouded Leopard">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/leopard4.jpg" style="width:100%" onclick="currentSlide(4)"
+                    alt="Sleeping Clouded Leopard">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/leopard5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Bornean clouded leopard camera trap">
+            </div>
+        </div>
+        </div>
+        <script src="slideshow.js"></script>
+    </section>
+    <footer>
+        © 2025 Project WildBorneo | ICT AUMS UT0012 2025
+    </footer>
+    </div>
+</body>
+
+</html>
